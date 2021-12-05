@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  /*focus時の効果を無効化する*/
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  /*focus時に何も起こらないので、下でhoverを指定する*/
+}
+
+button:hover {
+  background-color: #dd81dd;
+  color: #fff;
+  cursor: pointer;
+}
+
+li {
+  margin-right: 8px;
+}
+
+/* jsxコンポーネントにstyleとして書くこともできる。ライブラリを使う方法もある。 */
+
+.complete-area {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px; /*最小限の高さ*/
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center; /*横一列に*/
+  padding-bottom: 4px;
+}
